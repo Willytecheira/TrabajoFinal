@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nuevovehiculo"
+    android:orientation="vertical"
+    android:id="@+id/vehi"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/bienvenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIENVENIDOS"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="al ingreso de vehículos!"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/marca"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Marca"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:id="@+id/modelo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Modelo"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:id="@+id/ano"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Año"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:id="@+id/valor"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Valor"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:id="@+id/guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GUARDAR VEHICULO"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>
